@@ -1,10 +1,12 @@
 ---
-title: "Syntax Highlighting"
-metaTitle: "Syntax Highlighting is the meta title tag for this page"
-metaDescription: "This is the meta description for this page"
+title: "Teacher Experience"
+metaTitle: "Teacher Experience"
+metaDescription: "Teacher Experience"
 ---
 
-The following is a code block with JavaScript language syntax highlighting.
+Teacher Experience Style Guide
+
+<!-- The following is a code block with JavaScript language syntax highlighting.
 
 ```javascript
 import React from 'react';
@@ -23,4 +25,4 @@ The following is a code block with diff. Lines with `+` highlighted in green sha
 
 ```javascript react-live=true
 <button className={'btn btn-default'}>Change my text</button>
-```
+``` -->
