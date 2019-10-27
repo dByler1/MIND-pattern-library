@@ -1,14 +1,14 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://learn.hasura.io",
+		"siteUrl": "https://keen-northcutt-668d66.netlify.com/",
 		"gaTrackingId": null
 	},
 	"header": {
-		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
+		"logo": "./src/components/images/logo.png",
+		"logoLink": "",
 		"title": "MIND Component Library",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"githubUrl": "",
 		"helpUrl": "",
 		"tweetText": "",
 		"links": [
@@ -28,17 +28,17 @@ const config = {
     		"/codeblock"
 		],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "", "link": "https://www.mindresearch.org/"},
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
 		"title": "MIND Component Library | FEND",
-		"description": "Documentation built with mdx. Powering learn.hasura.io ",
+		"description": "MIND FEND Web Components",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"docsLocation": "",
+		"favicon": "./public/static/favicon-32x32.png"
 	},
 };
 
