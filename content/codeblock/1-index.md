@@ -42,6 +42,33 @@ metaDescription: "This is the meta description for this page"
     }
 ```
 
+# Button-Secondary
+
+<button className={"button-secondary"}>Button-Secondary</button>
+
+``` html
+<button id="c--studenthub--print-quiz-modal--button" type="button" class="button-secondary">Button secondary</button>
+```
+
+```css
+.button-default {
+    font-family: 'Lato-Bold', 'sans-serif';
+    font-size: 16px;
+    color: #1377D6;
+    line-height: 0px;
+    background: #ffffff;
+    padding: 14px 20px;
+    border-radius: 21px;
+    border: 1px solid #1377D6;
+}
+
+
+@media (max-width: 568px) { 
+    .button-default {
+        padding: 14px 20px;
+    }
+```
+
 
 
 
