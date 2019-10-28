@@ -24,6 +24,39 @@
     color: #ffffff;
 }
 
+@font-face {
+  font-family: 'Lato-Black';
+  src: url('./fonts/console/Lato-Black.eot');
+  src: local('☺'),
+    url('./fonts/console/Lato-Black.woff') format('woff'),
+    url('./fonts/console/Lato-Black.ttf') format('truetype'),
+    url('./fonts/console/Lato-Black.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Bold';
+  src: url('./fonts/console/Lato-Bold.eot');
+  src: local('☺'),
+    url('./fonts/console/Lato-Bold.woff') format('woff'),
+    url('./fonts/console/Lato-Bold.ttf') format('truetype'),
+    url('./fonts/console/Lato-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Regular';
+  src: url('./fonts/console/Lato-Regular.eot');
+  src: local('☺'),
+    url('./fonts/console/Lato-Regular.woff') format('woff'),
+    url('./fonts/console/Lato-Regular.ttf') format('truetype'),
+    url('./fonts/console/Lato-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   font-family: 'Roboto';
 }

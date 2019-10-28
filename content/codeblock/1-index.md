@@ -6,16 +6,14 @@ metaDescription: "This is the meta description for this page"
 
 # Button-Default
 
+<button className={'button-default'}>Button-Default</button>
 
-<button className={'button-default'}>Button Default</button>
-
-```html
-<button id="c--studenthub--describe-role--button" type="button" class="button-default">Print</button>
+``` html
+<button id="c--studenthub--print-quiz-modal--button" type="button" class="button-default">Button Default</button>
 ```
 
 ```css
 .button-default {
-    margin: 40px 0 40px 32px;
     font-family: 'Lato-Bold', 'sans-serif';
     font-size: 16px;
     color: #FFFFFF;
@@ -43,7 +41,6 @@ metaDescription: "This is the meta description for this page"
         padding: 14px 20px;
     }
 ```
-
 
 
 
