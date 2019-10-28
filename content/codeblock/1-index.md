@@ -4,7 +4,14 @@ metaTitle: "Buttons and Icons"
 metaDescription: "This is the meta description for this page"
 ---
 
-#Button-Default
+# Button-Default
+
+
+<button className={'button-default'}>Button Default</button>
+
+```html
+<button id="c--studenthub--describe-role--button" type="button" class="button-default">Print</button>
+```
 
 ```css
 .button-default {
@@ -32,24 +39,13 @@ metaDescription: "This is the meta description for this page"
 }
 
 @media (max-width: 568px) { 
-    .s-h-objectives-tab-wrapper .quiz-modal-footer .button-default {
+    .button-default {
         padding: 14px 20px;
     }
 ```
 
-## Live Editing example
 
-```javascript react-live=true
-<button className={'button-default'}>Change my text</button>
-```
 
-Supports multiple languages.
 
-The following is a code block with diff. Lines with `+` highlighted in green shade indicating an addition. Lines with `-` highlighted in red shade indicating a deletion.
-
-```javascript
-- const data = ['1','2'];
-+ const data = [1,2];
-```
 
 

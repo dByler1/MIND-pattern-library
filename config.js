@@ -5,7 +5,7 @@ const config = {
 		"gaTrackingId": null
 	},
 	"header": {
-		"logo": "./src/components/images/logo.png",
+		"logo": "",
 		"logoLink": "",
 		"title": "MIND Component Library",
 		"githubUrl": "",
@@ -38,7 +38,7 @@ const config = {
 		"description": "MIND FEND Web Components",
 		"ogImage": null,
 		"docsLocation": "",
-		"favicon": "./public/static/favicon-32x32.png"
+		"favicon": ""
 	},
 };
 
