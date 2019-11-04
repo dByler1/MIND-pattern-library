@@ -54,9 +54,9 @@
     color: #1377D6;
     line-height: 0px;
     background: #ffffff;
-    padding: 14px 20px;
+    padding: 20px 20px;
     border-radius: 21px;
-    border: 1px solid #1377D6;
+    border: 1px solid #D4DBDE;
 }
 
 .button-default:hover,
@@ -140,12 +140,49 @@
     margin: 0;
 }
 
+/* ----------------     SPANS     -------------------- */
+
+.span-one {
+    font-family: 'Lato-Black' , sans-serif;
+    font-size: 36px;
+    color: #000000;
+    line-height: 44px;
+    letter-spacing: .5px;
+}
+
+.span-two {
+    font-family: 'Lato-Bold' , sans-serif;
+    font-size: 22px;
+    color: #000000;
+    line-height: 27px;
+}
+
+.span-three {
+    font-family: 'Lato-Bold' , sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.span-four {
+    font-family: 'Lato-Regular' , sans-serif;
+    font-size: 20px;
+    color: #000000;
+    line-height: 24px;
+}
+
+.span-five {
+    font-family: 'Lato-Black' , sans-serif;
+    font-size: 18px;
+    color: #000000;
+    line-height: 22px;
+}
+
 .span-six {
     font-family: 'Lato-Bold' , sans-serif;
     font-size: 18px;
     color: #000000;
     line-height: 22px;
-    margin-bottom: 0;
 }
 
 .span-seven {
@@ -153,7 +190,6 @@
     font-size: 18px;
     color: #000000;
     line-height: 22px;
-    margin-bottom: 0;
 }
 
 .span-eight {
@@ -164,7 +200,7 @@
 }
 
 .span-nine {
-    font-family: 'Lato-Reg', sans-serif;
+    font-family: 'Lato-Regular', sans-serif;
     font-size: 16px;
     color: #000000;
     line-height: 19px;
@@ -179,11 +215,31 @@
 }
 
 .span-eleven {
-    font-family: 'Lato-Reg', sans-serif;
+    font-family: 'Lato-Regular', sans-serif;
     font-size: 14px;
     color: #000000;
     line-height: 17px;
 }
+
+/* ----------------     PARAGRAPHS     -------------------- */
+
+.paragraph-one {
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    line-height: 19px;
+    margin: 0;
+}
+
+.paragraph-two {
+    font-family: 'Lato-Regular', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    line-height: 19px;
+    margin: 0;
+}
+
+/* ----------------     LABELS     -------------------- */
 
 .label-one {
     font-family: 'Lato-Bold', sans-serif;
@@ -199,9 +255,72 @@
     line-height: 19px;
 }
 
+.label-three {
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    line-height: 17px;
+}
+
+/* ----------------     ALERTS     -------------------- */
+
+.success-message {
+    font-family: 'Lato-Bold', sans-serif;
+    color: #22AB06;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.alert-message {
+    font-family: 'Lato-Black', sans-serif;
+    color: #906F04;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.error-message {
+    font-family: 'Lato-Black', sans-serif;
+    color: #EF6071;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+/* ----------------     OTHER     -------------------- */
+
+.text-field {
+    font-family: 'Lato-Regular', sans-serif;
+    color: #000000;
+    font-size: 16px;
+    line-height: 19px;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.text-hint {
+    font-family: 'Lato-Regular', sans-serif;
+    color: #8d8d8d;
+    font-size: 16px;
+    line-height: 16px;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
+.text-disabled {
+    font-family: 'Lato-Regular', sans-serif;
+    color: #8d8d8d;
+    line-height: 16px;
+    font-size: 16px;
+    background: none;
+    border: none;
+    text-align: left;
+}
+
 .text-link {
     font-family: 'Lato-Bold', sans-serif;
     color: #2787E2;
+    font-size: 16px;
     background: none;
     border: none;
     text-align: left;
@@ -216,58 +335,72 @@
     color: #1377D6;
 }
 
-.success-message {
-    font-family: 'Lato-Bold', sans-serif;
-    color: #22AB06;
-    font-size: 16px;
-    line-height: 19px;
-}
+/* ----------------     MOBILE      -------------------- */
 
 @media (max-width: 568px) { 
-  .heading-one {
-      font-size: 36px;
-      line-height: 44px;
+
+  .button-default,
+  .button-secondary {
+    padding: 17px 20px;
   }
 
-  .heading-two {
-      font-size: 26px;
-      line-height: 32px;
+  .heading-one {
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .heading-two,
+  .span-one {
+    font-size: 26px;
+    line-height: 32px;
   }
 
   .heading-three,
-  .heading-four {
-      font-size: 20px;
-      line-height: 24px;
+  .heading-four,
+  .span-two {
+    font-size: 20px;
+    line-height: 24px;
   }
 
-  .heading-five {
-        font-size: 18px;
-        line-height: 22px;
-    }
+  .heading-five,
+  .span-three,
+  .span-four {
+    font-size: 18px;
+    line-height: 22px;
+  }
 
-    .heading-six,
-    .heading-seven,
-    .span-six,
-    .span-seven {
-        font-size: 16px;
-        line-height: 19px;
-    }
+  .heading-six,
+  .heading-seven,
+  .span-five,
+  .span-six,
+  .span-seven,
+  .alert-message {
+    font-size: 16px;
+    line-height: 19px;
+  }
 
-    .span-eleven,
-    .span-ten {
-        font-size: 13px;
-        line-height: 16px;
-    }
+  .heading-eight,
+  .label-one,
+  .label-two,
+  .span-eight,
+  .span-nine,
+  .paragraph-one,
+  .success-message,
+  .error-message,
+  .text-field,
+  .text-hint,
+  .text-disabled {
+    font-size: 14px;
+    line-height: 17px;
+  }
 
-    .heading-eight,
-    .label-one,
-    .label-two,
-    .span-eight,
-    .span-nine,
-    .success-message {
-        font-size: 14px;
-        line-height: 17px;
-    }
+  .span-ten,
+  .span-eleven,
+  .paragraph-two,
+  .label-three {
+    font-size: 13px;
+    line-height: 16px;
+  }
 }
 
 /* end text classes */
